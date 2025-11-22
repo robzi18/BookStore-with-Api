@@ -1,0 +1,191 @@
+
+.header-container {
+  width: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: stretch;
+  box-shadow: 8px 7px 6px rgba(20, 20, 20, 0.1);
+}
+
+
+.logo-container {
+  width: 380px;               
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  padding: 1rem;          
+  background-color: var(--primary-color);
+  border-radius: 0 8px 0 8px;
+}
+
+.logo-container img {
+  height: 60px;            
+  width: auto;
+  object-fit: cover;
+}
+
+
+.right-side-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;;
+  padding-left:2rem;
+}
+
+
+.contact-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1em;
+    font-weight: 500;
+}
+.contact-info-braker{
+  height: 16px;
+  border-left: 3px solid #ccc;
+  margin: 0 10px;
+  color: white;
+
+}
+.middle-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 10px;
+}
+
+
+
+
+/* TOP header */
+.top-header {
+    width: 100%;
+    background: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+    padding: 0.2rem 4rem ;
+    margin-top: 0;
+}
+
+.top-header p {
+    margin: 0;
+    line-height: 1.2;
+
+}
+
+.top-btn {
+    border: none;
+    background: inherit;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.top-btn:hover {
+    color: var(--secondary-color);
+}
+
+/* BOTTOM HEADERE */
+.bottom-header {
+  width: 100%;
+}
+
+.menu-list-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 2rem ;
+}
+
+
+.menu-list {  
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1; 
+}
+
+.menu-list li a, .menu-list select {
+    text-decoration: none;
+    padding: 6px 10px;
+    border: none;
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--text-color);
+    padding: 10px 14px;
+  
+}
+.menu-list li a:hover , .menu-list select:hover {
+  color: var(--primary-color);
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 6px;
+}
+.menu-list select option{
+    font-size: 15px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+
+.cart-fav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.2rem;
+
+
+  margin-left: auto; 
+}
+
+.icon-style {
+  font-size: 1.6rem;  cursor: pointer;
+}
+.icon-style:hover {
+  color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

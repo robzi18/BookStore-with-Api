@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color:#00747C;
+  --secondary-color:#00BBC9;
+  /* --bg-color:#CACACA; */
+  --bg-color:#E3E3E3;
+  --text-color-bold:#212121;
+  --text-color:#333;
+  --border-color:#B0B0B0;
+  --gray-bg-color: #878787;
+  --dark-color: #202022;
+  --box-shadow-color: 1px 1px 4px var(--gray-bg-color);
+}
+
+
+.main-container{
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 4rem 0.9rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.2rem;
+
+}

@@ -1,0 +1,75 @@
+.booklist-container{
+    max-width: 65%;
+    margin-inline: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+}
+
+.book-card{
+    flex: 1 1 calc(33.33% - 12px);
+    max-width: calc(33.33% - 12px);
+    background: var(--bg-color);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px auto;
+    cursor: pointer;
+}
+.book-card:hover{
+    box-shadow: 1px 2px 4px var(--primary-color);
+    transition: all 0.1s ease-in-out;
+}
+.book-card .maine-img{
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+}
+.book-card .maine-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.book-title{
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;     
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+
+.book-title:hover {
+    -webkit-line-clamp: unset;  
+    white-space: normal;        
+    overflow: visible;
+    background: #fff;           
+    position: relative;         
+    z-index: 999;
+}
+.prise-author-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+    margin: 6px auto;
+}
+.prise-author-wrapper .price{
+font-size: 0.9em;
+}
+.prise-author-wrapper .author{
+    font-weight: 550;
+    font-size: 1.2em;
+    
+}
