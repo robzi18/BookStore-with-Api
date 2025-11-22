@@ -84,7 +84,7 @@ const Footer = () => {
 
         </div>
         <div className="bottom-footer-wrapper">
-            <p>© 2024 Bookle. All Rights Reserved.</p>
+            <p>© 2025 Bookle. All Rights Reserved.</p>
             <div className='payment-cards'>
                 <img src="./images/ing.png" alt="" />
                 <img src="./images/mastercard.png" alt="" />
